@@ -1,8 +1,8 @@
-function adicionarNome() {
+function adicionarTarefa() {
 
     //variaveis e constantes
-    let mensagem = "Nome adicionado a lista!"
-    const Nome = document.getElementById("Nome")
+    let mensagem = "tarefa adicionada!"
+    const Nome = document.getElementById("tarefa")
     let texto = Nome.value.trim()
     const msg = document.getElementById("mensagem")
 
@@ -17,7 +17,7 @@ function adicionarNome() {
         //muda a cor da font de texto para vermelho
         msg.style.color = "#ff4b3c"
         
-        msg.textContent = "Adicione um nome válido"
+        msg.textContent = "Adicione uma tarefa válida"
         
     }
 
